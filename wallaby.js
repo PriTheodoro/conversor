@@ -1,6 +1,6 @@
 module.exports = () => {
     return {
-        files: ['lib/**/*.js'],
+        files: ['*.js'],
         tests: ['test/**/*spec.js'],
         env: {
             type: 'node'

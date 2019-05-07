@@ -1,0 +1,1 @@
+{"processes":{"3c9b33ab-62e5-4a25-9788-5363674a4bc3":{"parent":null,"children":["5f3aca9d-85a6-45ee-b010-ec70e8f92785"]},"5f3aca9d-85a6-45ee-b010-ec70e8f92785":{"parent":"3c9b33ab-62e5-4a25-9788-5363674a4bc3","children":[]}},"files":{"/home/pritheodoro/Documentos/Laboratoria/conversor/index.js":["5f3aca9d-85a6-45ee-b010-ec70e8f92785"]},"externalIds":{}}

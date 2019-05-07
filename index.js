@@ -43,6 +43,7 @@ function numberArabicToRoman(algArab){
   }
   return result;
 }
+console.log(numberRomanToArabic("C"))
 module.exports.numberRomanToArabic = numberRomanToArabic;
 module.exports.numberArabicToRoman = numberArabicToRoman;
 
