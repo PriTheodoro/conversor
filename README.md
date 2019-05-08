@@ -1,8 +1,7 @@
-# Converso de números romanos para arábicos e números arábicos para romanos v.1.0.0
+# Conversor de números romanos para arábicos e números arábicos para romanos v.1.0.0
 
 **Esta biblioteca se destina à conversão de números romanos para arábicos e vice versa, para utilização em aplicações web.**
-Nesta versão é possível converter os números arábico de 1 a 1.000.000.00 para números romanos e os seus equvalentes em números 
-romanos para arábicos.
+Nesta versão é possível converter os números arábico de 1 a 1.000.000.00 para números romanos e os seus equivalentes em números romanos para arábicos.
 OBS: A númeração romana a partir do número 4000 segue a seguinte regra  utiliza-se um travessão por cima da letra, que 
 representa sua multiplicação por 1000.  
 
@@ -24,7 +23,7 @@ Criar arquivo index.js com as seguintes informações:
 > console.log(conversorRomanToInt("CCL"))
 > // returns 250
 
-> const conversorIntToRoman = require("chayote-lib");
+> const conversorIntToRoman = require("pafconversor-lib");
 > console.log(conversorIntToRoman(950))
 > // returns "CML"
 
