@@ -13,20 +13,20 @@ describe("conversor lib", () => {
     it("converte mdcxcix número romano para 1699 número arábico", () => {
       expect(conversor.romanToInt("mdcxcix")).to.equal(1699);
     });
-    it("converte -iv número romano para 4000 número arábico", () => {
-      expect(conversor.romanToInt("-iv")).to.equal(4000);
+    it("converte ˉiv número romano para 4000 número arábico", () => {
+      expect(conversor.romanToInt("ˉiv")).to.equal(4000);
     });
-    it("converte -D número romano para 500.000 número arábico", () => {
-      expect(conversor.romanToInt("-D")).to.equal(500000);
+    it("converte ˉD número romano para 500.000 número arábico", () => {
+      expect(conversor.romanToInt("ˉD")).to.equal(500000);
     });
-    it("converte -DCXX número romano para 500.000 número arábico", () => {
-      expect(conversor.romanToInt("-Dcxx")).to.equal(500120);
+    it("converte ˉDCXX número romano para 500.000 número arábico", () => {
+      expect(conversor.romanToInt("ˉDcxx")).to.equal(500120);
     });
     it("converte DXXI número romano para 521 número arábico", () => {
       expect(conversor.romanToInt("dxxi")).to.equal(521);
     });
-    it("converte -M-D-X-X-MMM número romano para 1523000 número arábico", () => {
-      expect(conversor.romanToInt("-m-d-x-xmmm")).to.equal(1523000);
+    it("converte ˉMˉDˉXˉXˉMMM número romano para 1523000 número arábico", () => {
+      expect(conversor.romanToInt("ˉmˉdˉxˉxmmm")).to.equal(1523000);
     });
     it("informa que o valor digitado não é um número romano", () => {
       let notRoman = () => conversor.romanToInt("")
@@ -53,8 +53,8 @@ describe("conversor lib", () => {
     it("converte 3000 número arábico para MMM número romano", () => {
       expect(conversor.intToRoman(3000)).to.equal("MMM");
     });
-    it("converte 10005 número arábico para -xv número romano", () => {
-      expect(conversor.intToRoman(10005)).to.equal("-XV");
+    it("converte 10005 número arábico para ˉxv número romano", () => {
+      expect(conversor.intToRoman(10005)).to.equal("ˉXV");
     });
     it("converte 96 número arábico para XCVI número romano", () => {
       expect(conversor.intToRoman(96)).to.equal("XCVI");
