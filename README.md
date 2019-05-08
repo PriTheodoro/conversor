@@ -20,11 +20,11 @@ $  npm install pafconversor-lib
 Criar arquivo index.js com as seguintes informações:
 
 > const conversorRomanToInt = require("pafconversor-lib");
-> console.log(conversorRomanToInt("CCL"))
+> console.log(conversorRomanToInt.romanToInt("CCL"));
 > // returns 250
 
 > const conversorIntToRoman = require("pafconversor-lib");
-> console.log(conversorIntToRoman(950))
+> console.log(conversorIntToRoman.intToRoman(950));
 > // returns "CML"
 
 OBS: O nùmero romano deve ser digitado sempre entre " " para conversão, pois é uma string.
