@@ -1,5 +1,5 @@
 {
-  "name": "conversor",
+  "name": "pafconversor-lib",
   "version": "1.0.0",
   "description": "Converte numeros romanos em arábicos e vice versa",
   "main": "index.js",
