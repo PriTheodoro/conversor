@@ -19,7 +19,7 @@ function isNumberArabic(algArab){
   }
 }
 
-function numberRomanToArabic(algRom){
+function romanToInt(algRom){
   isNumberRoman(algRom);
   algRom = algRom.toUpperCase();
   let result = 0;
@@ -32,7 +32,7 @@ function numberRomanToArabic(algRom){
   return result;
 }
 
-function numberArabicToRoman(algArab){
+function intToRoman(algArab){
   isNumberArabic(algArab);
   let result = '';  
   for (let num in numArabic){
@@ -43,7 +43,6 @@ function numberArabicToRoman(algArab){
   }
   return result;
 }
-console.log(numberRomanToArabic("C"))
-module.exports.numberRomanToArabic = numberRomanToArabic;
-module.exports.numberArabicToRoman = numberArabicToRoman;
+module.exports.romanToInt = romanToInt;
+module.exports.intToRoman = intToRoman;
 

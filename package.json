@@ -1,7 +1,7 @@
 {
   "name": "conversor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converte numeros romanos em arábicos e vice versa",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "nyc mocha"
   },
-  "author": "",
+  "author": "Priscila Theodoro",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
